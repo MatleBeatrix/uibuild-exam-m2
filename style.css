@@ -33,38 +33,38 @@ body {
 }
 
 h1 {
+  margin-bottom: 20px;
   font-family: "EB Garamond", serif;
   color: #467745;
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 519px) {
   h1 {
-    font-size: 36px;
     text-align: left;
+    font-size: 36px;
     margin-left: 20px;
   }
 }
 
 @media only screen and (min-width: 520px) {
   h1 {
-    font-size: 48px;
     text-align: center;
+    font-size: 48px;
   }
 }
 
 .subject {
-  height: 64px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  height: 64px;
 }
 
 input[type="text"] {
-  color: #467745;
   border: 0;
   margin-bottom: 20px;
   padding: 0 20px;
+  color: #467745;
 }
 
 @media only screen and (max-width: 519px) {
@@ -81,17 +81,17 @@ input[type="text"] {
 }
 
 .comment {
-  height: 120px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  height: 120px;
 }
 
 textarea {
-  color: #467745;
   border: 0;
   margin-bottom: 20px;
   padding: 20px;
+  color: #467745;
 }
 
 @media only screen and (max-width: 519px) {
@@ -108,31 +108,31 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
   color: #467745;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
 }
 
 :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
   color: #467745;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
 }
 
 ::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
   color: #467745;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
 }
 
 ::placeholder {
+  font-size: 16px;
+  font-weight: 500;
   color: #467745;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
 }
 
 .checkbox {
@@ -170,17 +170,17 @@ a {
 }
 
 input[type="submit"] {
-  font-size: 21px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  font-family: "EB Garamond", serif;
-  margin-top: 20px;
-  width: 280px;
   height: 80px;
+  width: 280px;
+  margin-top: 20px;
+  border: 0;
+  font-family: "EB Garamond", serif;
   background-color: #467745;
   color: #f7e4d4;
-  border: 0;
+  font-size: 21px;
   border-radius: 50px;
   letter-spacing: 0.2em;
 }
