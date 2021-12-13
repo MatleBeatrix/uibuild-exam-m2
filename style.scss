@@ -35,11 +35,6 @@ h1 {
   align-self: center;
 }
 
-.comment {
-  height: 120px;
-  align-self: center;
-}
-
 input[type="text"] {
   color: #467745;
   padding: 0 20px;
@@ -52,7 +47,13 @@ input[type="text"] {
 
   @media only screen and (min-width: 520px) {
     width: 480px;
+    max-width: 480px;
   }
+}
+
+.comment {
+  height: 120px;
+  align-self: center;
 }
 
 textarea {
@@ -67,6 +68,7 @@ textarea {
 
   @media only screen and (min-width: 520px) {
     width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -74,6 +76,7 @@ textarea {
   color: #467745;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .checkbox {

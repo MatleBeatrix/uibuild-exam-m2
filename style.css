@@ -47,13 +47,6 @@ h1 {
       align-self: center;
 }
 
-.comment {
-  height: 120px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
 input[type="text"] {
   color: #467745;
   padding: 0 20px;
@@ -70,7 +63,15 @@ input[type="text"] {
 @media only screen and (min-width: 520px) {
   input[type="text"] {
     width: 480px;
+    max-width: 480px;
   }
+}
+
+.comment {
+  height: 120px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 textarea {
@@ -89,6 +90,7 @@ textarea {
 @media only screen and (min-width: 520px) {
   textarea {
     width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -96,24 +98,28 @@ textarea {
   color: #467745;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 :-ms-input-placeholder {
   color: #467745;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 ::-ms-input-placeholder {
   color: #467745;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 ::placeholder {
   color: #467745;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .checkbox {
